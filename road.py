@@ -10,3 +10,6 @@ class Road:
 
     def draw(self, screen):
         pygame.draw.polygon(screen, self.col, self.corners)
+
+    def check_collision(self, car):
+        pass
